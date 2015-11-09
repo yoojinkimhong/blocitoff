@@ -21,14 +21,15 @@ Arrays & Dictionaries
 */
 
 var numberArray = [1, 2, 3, 4]
-
+// Add 5 to this array
 // WORK HERE
+numberArray += [5]
 
 var numberDictionary = [1 : "one", 2 : "two", 3 : "three", 4 : "four"]
-
-
 // Add 5 : "five" to this dictionary
 // WORK HERE
+numberDictionary[5] = "five"
+
 
 /*
 
@@ -36,11 +37,17 @@ Loops
 
 */
 
-// Use a closed range loop to print 1 - 10, inclusively
+// Use a closed range loop to print 1 - 10, inclusively   ...
 // WORK HERE
+for number in 1...10 {
+    print("\(number)")
+}
 
-// Use a half-closed range loop to print 1 - 10, inclusively
+// Use a half-closed range loop to print 1 - 10, inclusively  ..<
 // WORK HERE
+for numberTwo in 1..<10 {
+    print("\(numberTwo)")
+}
 
 let worf = [
     "name": "Worf",
@@ -60,7 +67,14 @@ let characters = [worf, picard]
 func favoriteDrinksArrayForCharacters(characters:[[String : String]]) -> [String] {
     // return an array of favorite drinks, like ["prune juice", "tea, Earl Grey, hot"]
     // WORK HERE
-    return []
+    var drinks: [String] = []
+    
+    for character in characters {
+        let favoriteDrink = character["favorite drink"]
+        drinks += [favoriteDrink!]
+    }
+    
+    return drinks
 }
 
 let favoriteDrinks = favoriteDrinksArrayForCharacters(characters)

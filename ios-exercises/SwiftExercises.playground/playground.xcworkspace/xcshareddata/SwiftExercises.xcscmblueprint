@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5450119CCA2DD394E9078F73A3071326A1F877FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5450119CCA2DD394E9078F73A3071326A1F877FC" : 0,
+    "5D4F111B18454D68ED36DCF90F382F02264D042E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B367C1F9-936F-43EC-9EEF-50523A8DCBE0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5450119CCA2DD394E9078F73A3071326A1F877FC" : "ios-exercises\/",
+    "5D4F111B18454D68ED36DCF90F382F02264D042E" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftExercises",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftExercises.playground",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Bloc\/ios-exercises.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5450119CCA2DD394E9078F73A3071326A1F877FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yoojinkimhong\/blocitoff.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5D4F111B18454D68ED36DCF90F382F02264D042E"
+    }
+  ]
+}

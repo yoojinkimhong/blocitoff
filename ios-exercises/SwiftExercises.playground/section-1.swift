@@ -91,7 +91,13 @@ func emailFromUserDict(userDict : [String : String]) -> String {
     // Return the user's email address from userDict, or return "" if they don't have one
     
     // WORK HERE
-    return "user@example.com"
+    let email = userDict["email"]
+    
+    if email != nil {
+        return email!
+    }
+    
+    return ""
 }
 
 
@@ -116,7 +122,16 @@ Functions
 let strings = ["milk", "eggs", "bread", "challah"]
 
 // WORK HERE - make your function and pass `strings` in
+func stringCombined(strings: [String]) -> String {
+    var combinedString = ""
+    for string in strings {
+        combinedString += string + ";"
+    }
+    
+    return combinedString
+}
 
+let combinedString = stringCombined(strings)
 let expectedOutput = "milk;eggs;bread;challah"
 
 /*
@@ -129,3 +144,4 @@ let cerealArray = ["Golden Grahams", "Cheerios", "Trix", "Cap'n Crunch OOPS! All
 
 // Use a closure to sort this array alphabetically
 // WORK HERE
+
